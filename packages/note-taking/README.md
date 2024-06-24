@@ -26,12 +26,11 @@ La page de visualisation de note doit afficher le contenu en markdown et une pre
 - Un identifiant unique (UUID - automatique)
 
 ### Spécificités & Contraintes
-
 - Les notes sont stockées en local (localStorage) via un middleware zustand
 - Réaliser au moins un test unitaire (le fichier de test doit être dans `src` et s'appeler `xxxxxx.test.tsx`)
 - Réaliser au moins un test end to end (configuré dans le dossier `tests/e2e`)
 - L'application est responsive
 - Pas de librairie de composants UI
 - Utilisation des CSS modules pour le style
-- Utilisation de [Tanstack Router](https://tanstack.com/router/latest/docs/framework/react/overview) pour la navigation
+- Utilisation de [Tanstack Router](https://tanstack.com/router/latest/docs/framework/react/overview) pour la navigations
 - Utilisation de [zustand](https://docs.pmnd.rs/zustand/getting-started/introduction) pour la gestion d'état
