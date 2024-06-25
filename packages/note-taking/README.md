@@ -1,4 +1,8 @@
 # Offline note-taking app
+Pattern : Factory Pattern - création d'un UUID unique pour chaque note
+src/components/App/use_store.tsx
+
+J'ai un "Not found" lorsque je tente d'accéder à la note nouvellement créer, problème apparu lorsque j'ai mis en place les routes, après avoir fait un premier PoC sans cette fonctionnalité.
 
 ## Minimum attendu
 

@@ -11,7 +11,7 @@ interface Note {
 }
 
 interface NoteState {
-  notes: Note[];
+  notes: Array<Note>;
   addNote: (note: Omit<Note, 'id' | 'createdAt' | 'updatedAt'>) => void;
   updateNote: (updatedNote: Note) => void;
   deleteNote: (id: string) => void;
